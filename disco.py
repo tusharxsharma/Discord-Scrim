@@ -27,4 +27,4 @@ async def _8ball(ctx, *, question):
 				 'Without a doubt',
 				 'Yes - definitely.']
 	await ctx.send(f'Question:{question}\nAnswer: {random.choice(responses)}')
-clinent.run('#your bot token')
+clinent.run('#your bot token') 
